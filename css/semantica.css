@@ -1,0 +1,40 @@
+header {
+	margin-top: 30px;
+}
+
+header h1{
+	font-size: 35px;
+	display: inline;
+}
+
+header img {
+	width: 20%;
+	float: right;
+}
+nav {
+	border-bottom: grey solid 2px;
+	font-style: italic;
+	font-size: 18px;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: solid 2px grey;
+
+}
+nav ul li:first-child{
+	padding-left: 0;
+}
+nav ul li:last-child{
+	border:none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color : black;
+}
