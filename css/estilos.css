@@ -1,0 +1,31 @@
+header {
+	background-color: rgba(17,220,177,1);
+
+}
+h1 {
+	color: #C63A0A
+}
+section article h3 {
+	
+	color: blue;
+}
+
+.fondoazul{
+	background-color: blue;
+	color: white;
+}
+
+#articulo1{
+	background-color: grey;
+	font-weight: bold;
+}
+header nav ul li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	
+}
+a {
+	color: white;
+	text-decoration: none;
+}
