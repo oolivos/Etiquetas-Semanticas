@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario de Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+<body>
+	<section>
+		<h2>Formulario de Contacto</h2>
+		<form action="#" >
+			<div class="inputs-basicos">
+				<label>Nombres</label>
+				<input type="text" name="nombres">
+			</div>
+			<div class="inputs-basicos">
+				<label>Apellidos</label>
+				<input type="text" name="apellidos">
+			</div>
+			<div class="inputs-basicos">
+				<label>Telefono</label>
+				<input type="text" name="telefono">
+			</div>
+			<div class="inputs-basicos">
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<div class="inputs-basicos">
+				<label>Edad (Años)</label>
+				<input type="number" name="edad">
+			</div>
+			<div class="inputs-basicos">
+				<label>Color Favorito</label>
+				<select name="colorfavorito">
+					<option value="" selected>Seleccione...</option>
+					<option value="1">Rojo</option>
+					<option value="2">Amarillo</option>
+					<option value="3">Azul</option>
+				</select>
+			</div>
+			
+			<div class="deporte-genero" >
+				<label>Deportes Favoritos</label>
+				<div>
+					<input type="checkbox" name="deportes[]" value="1">
+					<label>Futbol</label>
+				</div>
+				<div>
+					
+					<input type="checkbox" name="deportes[]" value="2">
+					<label>Basketball</label>
+				</div>
+				<div>
+					
+					<input type="checkbox" name="deportes[]" value="1">
+					<label>Voleyball</label>
+				</div>
+				<div>
+					<input type="checkbox" name="deportes[]" value="1"><label>Tennis</label>
+				</div>
+				
+			</div>
+			<div class="deporte-genero">
+				<label>Genero</label>
+				<div>
+					<input type="radio" name="genero" value="1"><label>Masculino</label>
+				</div>
+				<div>
+					<input type="radio" name="genero" value="2"><label>Femenino</label>
+				</div>
+				<div>
+					<input type="radio" name="genero" value="3"><label>Otro</label>
+				</div>	
+			</div>
+			<button type="submit">Enviar</button>
+		</form>
+	</section>
+</body>
+</html>

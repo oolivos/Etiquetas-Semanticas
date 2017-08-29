@@ -1,0 +1,36 @@
+body{
+	width: 80%;
+	margin : 0 auto ;
+}
+
+.inputs-basicos {
+	width: 48%;
+	display: inline-block;
+}
+.inputs-basicos label {
+	width: 100%;
+
+}
+
+.inputs-basicos input,select {
+	width: 98%;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.deporte-genero{
+	width: 100%;
+}
+.deporte-genero input {
+
+}
+.deporte-genero label {
+	display: block;
+} 
+
+
+
+
+
+
+
