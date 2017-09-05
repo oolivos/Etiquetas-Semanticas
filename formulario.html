@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Formulario de Contacto</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+
 </head>
 <body>
 	<section>
@@ -40,28 +42,26 @@
 			</div>
 			
 			<div class="deporte-genero" >
-				<label>Deportes Favoritos</label>
+				<label class="label-titulo">Deportes Favoritos</label>
 				<div>
 					<input type="checkbox" name="deportes[]" value="1">
 					<label>Futbol</label>
 				</div>
 				<div>
-					
 					<input type="checkbox" name="deportes[]" value="2">
 					<label>Basketball</label>
 				</div>
 				<div>
-					
 					<input type="checkbox" name="deportes[]" value="1">
 					<label>Voleyball</label>
 				</div>
 				<div>
-					<input type="checkbox" name="deportes[]" value="1"><label>Tennis</label>
+					<input type="checkbox" name="deportes[]" value="1">
+					<label>Tennis</label>
 				</div>
-				
 			</div>
 			<div class="deporte-genero">
-				<label>Genero</label>
+				<label class="label-titulo">Genero</label>
 				<div>
 					<input type="radio" name="genero" value="1"><label>Masculino</label>
 				</div>
@@ -72,7 +72,7 @@
 					<input type="radio" name="genero" value="3"><label>Otro</label>
 				</div>	
 			</div>
-			<button type="submit">Enviar</button>
+			<button type="submit" id="boton-enviar">Enviar</button>
 		</form>
 	</section>
 </body>

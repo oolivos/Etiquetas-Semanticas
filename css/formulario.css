@@ -1,6 +1,8 @@
+
 body{
 	width: 80%;
 	margin : 0 auto ;
+	font-family: Roboto;
 }
 
 .inputs-basicos {
@@ -9,7 +11,7 @@ body{
 }
 .inputs-basicos label {
 	width: 100%;
-
+	
 }
 
 .inputs-basicos input,select {
@@ -21,12 +23,24 @@ body{
 .deporte-genero{
 	width: 100%;
 }
-.deporte-genero input {
-
+.deporte-genero div{
+	width: 24%;
+	display: inline-block;
 }
-.deporte-genero label {
-	
-} 
+.label-titulo{
+	display: block;
+}
+#boton-enviar{
+	width: 40%;
+	height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 30px;
+	border-radius: 4px;
+	background-color: rgba(0,64,255,.5);
+}
+
+
 
 
 
